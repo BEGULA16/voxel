@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> VoxelCraft - UPTIME </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+ 
+ <nav>
+  <details>
+   <summary class="menu">
+ <img class="sideimgnav" src="items/images/menu.png">
+    <h1 class="nav-cred">
+      <center>  <img src="items/images/title.png" height="40"> </center>
+    </h1>
+   </summary>
+   <!-- MENUUU -->
+   <div id="menu-button">
+    <a href="index.html" >
+     <span id="mbtn"> HOME</span>
+    </a>
+ <br> <br>
+    <a href="https://m.me/j/AbauVrZwmDrvaEZe/" >
+     <span id="mbtn"> MESSENGER </span>
+    </a>
+   </div>
+  </details>
+  <h6 class="side">
+   
+  </h6>
+ </nav>
+ 
+ <article>
+ <div> <center>
+  <h1 class="welcome-hero">
+   IS SERVER <span class="highlight"> ONLINE? </span></h1>
+  <h2 class="welcome-hero-a">
+   gg.ix.tc - 3278
+  </h2>
+  
+  <div>
+   <h1 class="infopar">
+   <p>
+    
+    
+    
+
+    <div id="server-status"></div>
+    <script>
+    async function getServerStatus() {
+    const response = await fetch("https://api.ismcserver.online/bedrock/gg.ix.tc:3278", {
+    headers: {
+    "Authorization": "fe2ab5ca-0df1-4a29-a445-490d8eee5a2c"
+    }
+    });
+    const data = await response.json();
+    const serverStatus = document.getElementById("server-status");
+    
+    if (data.online) {
+    serverStatus.innerText = "SERVER WAS OPERATING";
+    serverStatus.style.color = "#64e34d";
+    serverStatus.style.fontSize = "30px";
+    serverStatus.style.marginTop = "100px";
+    serverStatus.innerHTML += `<br> PLAYERS SLOT: ${data.players.online}/100`;
+    } else {
+    serverStatus.innerText = "SERVER ISNT WORKING!";
+    serverStatus.style.color = "#cf234b";
+    }
+    }
+    
+    getServerStatus();
+    </script>
+
+    
+    
+    
+    
+   </p>
+   </h1>
+  </div>
+ </center> </div>
+ 
+
+ <!-- NEWS -->
+
+  
+<!-- end -->
+
+
+ </div>
+ 
+ <br><br><br><br>
+ 
+ </article>
+ <footer>
+  
+  <div class="footer-content">
+   We are not associated with MOJANG! <br>
+   All Rights Reserved 2024 | VoxelServers <br> <br>
+   damiankehnan@proton.me • <br> GOOD DESIGN RIGHT? CODED EFFORTLY HARD BY DAMIAN KEHNAN
+  </div>
+ </footer>
+</body>
+</html>
+
+<style type="text/css">
+ body {
+  color: white;
+  font-family: arial;
+  transition: 2s;
+  background-image: url(items/images/back.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: mcr;
+ }
+ 
+ .highlight {
+  color: red;
+ }
+ 
+ #date {
+  font-size: 10px;
+ }
+ 
+ #new {
+  margin: 10px 5px 10px 5px;
+ }
+ 
+ #newws {
+  font-family: mcr;
+  font-size: px;
+  border-radius: 5px;
+  border-style: solid;
+  transition: 1s;
+  margin-bottom: 30px;
+ }
+ 
+ #newws:hover {
+  color: #b3e0e3;
+  transition: 1s;
+ }
+ 
+ #nt {
+  font-family: mcB;
+  font-size: 19px;
+  margin-bottom: 10px;
+ }
+ 
+ #mbtn {
+ border-size: 1px;
+ border-radius: 5px;
+ border-color: white;
+ border-style: solid;
+ color: white;
+ transition: 1s;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ padding-left: 5px;
+ padding-right: 5px;
+ }
+ 
+ #menu-button {
+ color: white;
+ }
+ 
+ .join-us {
+  font-size: 16px;
+  padding-top: 10px;
+ }
+ 
+ .footer-content {
+  margin: 5px 9px 5px 9px;
+ }
+ 
+ footer {
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+ }
+ 
+ @font-face {
+ font-family: mcB;
+ src: url(items/fonts/mcB.ttf);
+ }
+ 
+ @font-face {
+ font-family: mcr;
+ src: url(items/fonts/mcr.otf);
+ }
+ 
+ a {
+ text-decoration: none;
+ }
+ 
+details{
+border-radius: 4px;
+cursor:pointer;
+}
+
+summary{
+    list-style: none;
+}
+
+ .welcome-hero {
+  font-size: 50px;
+  font-family: mcB;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25%;
+  transition: 1s;
+ }
+ 
+ .welcome-hero:hover {
+  color: #b3e0e3;
+  transition: 1s;
+ }
+ 
+ .welcome-hero-a {
+  transition: 1s;
+ }
+ 
+ .welcome-hero-a:hover{
+  transition: 1s;
+ }
+ 
+ .infopar {
+  transition: 1s;
+  font-size: 18px;
+ }
+ 
+ .menu {
+  font-size: 19px;
+  transition: 2px;
+ }
+ 
+ .sideimgnav {
+  display: flex;
+  justify-content: left;
+  float: left;
+  height: 25px;
+ }
+
+ .navcred {
+  font-size: 200px;
+ }
+ 
+ .LGa {
+ color: #67ace0;
+ }
+ 
+ .LGb {
+ color: #e0da67;
+ }
+ 
+ .btn {
+  margin-top: 100px;
+ }
+ 
+ #btn {
+  border-size: 1px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  transition: 1s;
+ }
+ 
+ #btnA {
+  border-size: 1px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  padding: 5px 4% 5px 4%;
+  transition: 1s;
+ }
+ 
+ #btnA:hover, #btn:hover {
+  transition: 1s;
+  color: #b3e0e3;
+  border-color: #83dedc;
+ }
+</style>
+
+<script type="text/javascript">
+
+</script>
