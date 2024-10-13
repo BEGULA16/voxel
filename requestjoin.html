@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SLICEPE </title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+ 
+<nav>
+<div class="dropdown">
+<img src="assets/images/menu.png" class="headDropBtn" height="22px">
+<div class="dropdown-content">
+<a href="index.html" id="dropBTN"> home </a>
+<a href="requestjoin.html" id="dropBTN"> JOIN SERVER </a>
+<a href="mailto:voxelserver@proton.me" id="dropBTN"> email us </a>
+ <div id="clock">  </div>
+</div>
+</div>
+</div>
+ <h4 class="title">
+  <a href="#" id="randomNav">
+  <span class="titleStore">SLICE</span>
+  </a>
+ </h4>
+ <br> <p class="byD" id="displayText"> </p>
+ </nav>
+ 
+ <article>
+<div>
+ <h1 class="welcome-hero">
+   JOIN OUR SERVER<span class="highlight"> <br>VIA EMAIL </span>
+ </h1>
+ <h2 class="welcome-hero-a">
+  
+ </h2>
+ 
+ <div>
+  <h1 class="infopar">
+  <p>
+   <!-- SUBTITLE -->
+  dont worry, we wont send any spam to your email!
+  </p>
+  </h1>
+ </div>
+ </div>
+
+ 
+ <div id="serverstat"> loading </div>
+ 
+ <br><br>
+ <center><h6>PLEASE FILL OUT THE FORM BEFORE WE CAN ACCEPT YOUR REQUEST!</h6></center>
+ <center>
+ <form action="requested.html" class="Rform">
+ <input type="text" class="FInput" id="gtag" name="fname" placeholder="gamertag" required><br> <br>
+ <input type="email" class="FInput" id="email" name="lname" placeholder="email ( where we will send the IP! )" required><br> <br>
+ <input type="text" class="FInput" id="team" name="lname" placeholder="TEAM ( optional )"><br><br>
+  <input type="text" class="FInputA" id="message" name="lname" placeholder="extra message ( optional )"><br><br>
+ <input type="submit" class="submit" onclick="sendMail()" value="SUBMIT">
+ </form> 
+ </center>
+ 
+  <br> <br> <br>
+ 
+ <footer>
+  originally by DAMIAN KEHNAN ( fb ) <br>
+  no WEBSITE EDITOR or TEMPLATES used! straight coding! <br>
+  &copy; 2024 by VoxelServers
+ </footer>
+ 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+ </script>
+ <script type="text/javascript">
+ (function(){
+ emailjs.init({
+ publicKey: "CsYC4wQCuJdc4YrUA",
+ });
+ })();
+ </script>
+
+ </div>
+ 
+ <br><br><br><br>
+ 
+ </article>
+</body>
+</html>
+
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="script.js" > 
+
+</script>

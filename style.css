@@ -1,0 +1,351 @@
+body {
+ color: white;
+ font-family: arial;
+ transition: 2s;
+ background-image: url(items/images/back.gif);
+ background-color: black;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ font-family: mcr;
+ font-size: 16.69px;
+}
+
+/* HEADER */
+/* DROPBOX */
+/* styles.css */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 1s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  transition: 1s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
+
+#dropBTN {
+  color: #4029a6;
+  background-color: #000000;
+  padding: 1px 1px 1px 1px;
+  margin: 6px 2px 6px 2px;
+  font-align: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+ display: flex;
+ background-color: black;
+ position: sticky;
+ margin-top: 1px;
+ border-radius: 4px;
+ padding-top: 15px;
+ margin-top: 0px;
+ transition: 2s;
+ color: white;
+}
+
+nav:hover {
+ transition: 2s;
+ color: white;
+}
+
+.byD {
+ color: white;
+ font-size: 10px;
+ color: white;
+ margin-top: 20px;
+}
+
+#randomNav {
+ text-decoration: none;
+}
+
+.title, #randomNav {
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 24%;
+  color: #47edfc;
+}
+
+
+.titleStore {
+  color: white;
+}
+
+::-moz-selection {
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+#clock {
+ color: black;
+ text-align: center;
+}
+
+.getStartedBtn {
+ margin-left: 36%;
+ color: white;
+ background-color: #191f42;
+ border-radius: 3px;
+ padding: 10px 10px 10px 10px;
+}
+
+.highlight {
+ color: red;
+}
+
+#date {
+ font-size: 10px;
+}
+
+#new {
+ margin: 10px 5px 10px 5px;
+}
+
+#newws {
+ font-family: mcr;
+ font-size: px;
+ border-radius: 5px;
+ border-style: solid;
+ transition: 1s;
+ margin-bottom: 30px;
+}
+
+#newws:hover {
+ color: #b3e0e3;
+ transition: 1s;
+}
+
+#nt {
+ font-family: mcB;
+ font-size: 19px;
+ margin-bottom: 10px;
+}
+
+#mbtn {
+border-size: 1px;
+border-radius: 30px;
+border-color: white;
+border-style: solid;
+color: white;
+transition: 1s;
+margin-top: 3px;
+margin-bottom: 3px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+#menu-button {
+color: white;
+}
+
+.join-us {
+ font-size: 16px;
+ padding-top: 10px;
+}
+
+.footer-content {
+ margin: 5px 9px 5px 9px;
+}
+
+@font-face {
+font-family: mcB;
+src: url(items/fonts/mcB.ttf);
+}
+
+@font-face {
+font-family: mcr;
+src: url(items/fonts/mcr.otf);
+}
+
+a {
+text-decoration: none;
+}
+
+details{
+border-radius: 4px;
+cursor:pointer;
+}
+
+summary{
+   list-style: none;
+}
+
+.welcome-hero {
+ font-size: 50px;
+ font-family: mcB;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 16%;
+ transition: 1s;
+}
+
+.welcome-hero:hover {
+ color: #b3e0e3;
+ transition: 1s;
+}
+
+.welcome-hero-a {
+ transition: 1s;
+}
+
+.welcome-hero-a:hover{
+ transition: 1s;
+}
+
+.infopar {
+ transition: 1s;
+ font-size: 18px;
+ margin-left: 20px;
+}
+
+.menu {
+ font-size: 19px;
+ transition: 2px;
+}
+
+.sideimgnav {
+ display: flex;
+ justify-content: left;
+ float: left;
+}
+
+.navcred {
+ font-size: 200px;
+}
+
+.LGa {
+color: #67ace0;
+}
+
+.LGb {
+color: #e0da67;
+}
+
+.btn {
+ margin-top: 100px;
+}
+
+#btn {
+ border-size: 1px;
+ border-radius: 5px;
+ border-color: white;
+ border-style: solid;
+ color: white;
+ transition: 1s;
+ margin-bottom: 5px;
+}
+
+#btnA {
+ border-size: 1px;
+ border-radius: 5px;
+ border-color: white;
+ border-style: solid;
+ color: white;
+ margin-left: 0px;
+ margin-right: 0px;
+ padding-left: 20px;
+ padding-right: 20px;
+ transition: 1s;
+}
+
+#btnA:hover, #btn:hover {
+ transition: 1s;
+ color: #b3e0e3;
+ border-color: #83dedc;
+ }
+ 
+.Rform {
+ padding-top: 40px;
+ color: white;
+}
+
+.FInput, .FInputA {
+ width: 375px;
+ background: rgba(0,0,0,0.3);
+ height: 30px;
+ color: white;
+ border-style: hidden;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ font-family: mc;
+ transition: 1s;
+ border-radius: 8px;
+}
+
+.FInput:hover, .FInputA:hover {
+ background: rgba(0,0,0,1);
+ transition: 1s;
+}
+
+input {
+outline:none;
+}
+
+.FInputA {
+ height: 50px;
+}
+
+.submit {
+ background-color: transparent;
+ color: white;
+ font-family: mc;
+ transition: 1s;
+}
+
+.submit:hover {
+ background-color: white;
+ color: black;
+ transition: 1s;
+}
+
+footer {
+ background-color: black;
+ font-size: 12px;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 10px;
+ border: 2px solid white;
+ border-radius: 5px;
+}
