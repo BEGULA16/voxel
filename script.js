@@ -23,7 +23,7 @@ document.getElementById('randomNav').addEventListener('click', function() {
 
 //server status
 async function getServerStatus() {
-const response = await fetch("https://api.ismcserver.online/bedrock/gg.ix.tc:2649", {
+const response = await fetch("https://api.ismcserver.online/bedrock/slice.ix.tc:25100", {
 headers: {
 "Authorization": "fe2ab5ca-0df1-4a29-a445-490d8eee5a2c"
 }
